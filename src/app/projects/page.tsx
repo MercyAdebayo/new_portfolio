@@ -14,11 +14,20 @@ const projects: Project[] = [
   {
     title: 'AI Interview Coach Simulator',
     description:
-      'Real-time voice-based mock interview system with LLM feedback, Whisper transcription, and ElevenLabs voice synthesis.',
-    stack: ['Next.js', 'LiveKit', 'OpenAI', 'Whisper', 'ElevenLabs'],
-    image: '/placeholder.jpg',
+      'Voice-driven mock interview tool using STT–LLM–TTS pipeline. Features real-time feedback, job-aware questions, avatar integration, and natural conversation flow.',
+    stack: ['Next.js', 'FastAPI', 'LiveKit', 'OpenAI GPT-4o', 'Deepgram', 'ElevenLabs', 'Tavus'],
+    image: '/ai_interview_coach.png',
     repo: 'https://github.com/MercyAdebayo/ai-interview-coach',
   },
+  {
+    title: 'Hospital Operations Dashboard',
+    description:
+      'Developed a real-time hospital dashboard to monitor ER wait times, bed occupancy, and discharge metrics using synthetic data. Integrated backend analytics with interactive visualizations for operational insights.',
+    stack: ['React', 'FastAPI', 'PostgreSQL', 'Docker', 'Plotly'],
+    image: '/placeholder.jpg',
+    repo: 'https://github.com/MercyAdebayo/hospital-ops-dashboard',
+  },
+
   {
     title: 'LLM Document Classifier + AI Search',
     description:
